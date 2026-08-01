@@ -1,0 +1,15 @@
+generated: '2026-07-20'
+method: probed
+source: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts
+hosts:
+- host: prismlab.cn
+  https: true
+  tls_version: TLSv1.2
+  cert_expires: Oct  1 18:01:50 2026 GMT
+  hsts: false
+domains:
+- domain: prismlab.cn
+  dnssec: false
+  caa: []
+  spf: false
+  dmarc: false

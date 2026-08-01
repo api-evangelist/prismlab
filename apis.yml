@@ -1,7 +1,27 @@
 aid: prismlab
-name: prismlab
-description: prismlab is a company surfaced as a portfolio company of qiming and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/prismlab.png
+name: Prismlab
+description: Prismlab (Shanghai Prismlab Technology / 上海普利生) is an industrial-grade 3D
+  printing equipment provider founded in Shanghai, China, and a portfolio company of
+  Qiming Venture Partners. The company develops high-precision additive manufacturing
+  systems built on its proprietary SMS (Scan-Mode Slicing / sub-pixel micro-scanning)
+  photocuring technology, including the Rapid 600 and Rapid 400 industrial printer
+  series, the SP high-accuracy series, and MP micro-nano printers for research. Its
+  systems serve dental and orthodontics (clear aligners, dentures), precision medical
+  devices, jewelry, education and research, electronics, and mold/prototype manufacturing.
+  As a B2B hardware manufacturer, Prismlab publishes no public developer API, SDK,
+  or developer portal; this profile captures identity and a live domain-security probe.
 url: https://raw.githubusercontent.com/api-evangelist/prismlab/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +31,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- 3D Printing
+- Additive Manufacturing
+- Hardware
+- Manufacturing
+- Dental
+- Medical Devices
+- Industrial
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +48,14 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/prismlab-domain-security.yml
 - type: Website
   url: https://prismlab.cn
+- type: Website
+  url: https://prismlab.cn/en/
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
